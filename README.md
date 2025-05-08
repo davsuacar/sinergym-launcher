@@ -11,7 +11,7 @@ This project provides a basic setup for running experiments with Sinergym, a bui
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/davsuacar/sinergym-launcher
 cd sinergym-launcher
 ```
 
@@ -33,13 +33,6 @@ To run a basic experiment:
 ```bash
 python src/local_launcher/train_local_agent.py -conf src/local_launcher/local_launcher_config/train_agent_PPO.yml
 ```
-
-The default configuration uses the `Eplus-datacenter-mixed-continuous-stochastic-v1` environment with random actions. You can modify the parameters in `run_experiment.py` to:
-
-- Change the environment
-- Adjust the number of episodes
-- Modify the maximum steps per episode
-- Implement your own control strategy
 
 ## Sinergym Info
 
